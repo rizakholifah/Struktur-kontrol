@@ -1,9 +1,9 @@
 public class IF3{
     public static void main(String[] args){
         boolean hujan = true;
-        boolean adaPayung = false;
+        boolean adaPayung = true;
         if(hujan == true && adaPayung == true){
-            System.out.println("Boleh Keluar Rumah");
+            System.out.println("Boleh Keluar Rumah Pake Payung");
         }
         else if(hujan == true && adaPayung == false){
             System.out.println("Tidak Boleh Keluar Rumah");
